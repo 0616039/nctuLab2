@@ -17,7 +17,7 @@ class SingleSwitchTopo(Topo):
         # Add the host and link to a topology
         for h in range(n):
             # Add a host to a topology
-            host = self.addHost('h%s' % (h + 1))
+            host = self.addHost('s%s' % (s + 8))
             # Add a bidirectional link to a topology
             self.addLink(
                 host, 
@@ -31,7 +31,7 @@ class SingleSwitchTopo(Topo):
         # Add the host and link to a topology
         for h in range(n):
             # Add a host to a topology
-            host = self.addHost('h%s' % (h + 1))
+            host = self.addHost('s%s' % (s + 6))
             # Add a bidirectional link to a topology
             self.addLink(
                 host, 
@@ -45,7 +45,7 @@ class SingleSwitchTopo(Topo):
         # Add the host and link to a topology
         for h in range(n):
             # Add a host to a topology
-            host = self.addHost('h%s' % (h + 1))
+            host = self.addHost('h%s' % (h + 2))
             # Add a bidirectional link to a topology
             self.addLink(
                 host, 
@@ -59,7 +59,7 @@ Create and test a simple network
 '''
 def simpleTest():
     # Create a topology with 2 hosts and 1 switch
-    topo = SingleSwitchTopo(n = 6)
+    topo = SingleSwitchTopo(n = 2)
     # Create and manage a network with a OvS controller and use TCLink
     net = Mininet(
         topo = topo, 
