@@ -12,7 +12,7 @@ Single switch connected to n hosts.
 '''
 class SwitchTopo(Topo):
     def build(self):
-        #加switch的部分
+        #add switch
         s1 = self.addSwitch('s1')
         s2 = self.addSwitch('s2')
         s3 = self.addSwitch('s3')
@@ -21,14 +21,14 @@ class SwitchTopo(Topo):
         s6 = self.addSwitch('s6')
         s7 = self.addSwitch('s7')
         s8 = self.addSwitch('s8')
-        #我要加host了
+        #add host
         h1 = self.addHost('h1')
         h2 = self.addHost('h2')
         h3 = self.addHost('h3')
         h4 = self.addHost('h4')
         h5 = self.addHost('h5')
         h6 = self.addHost('h6')
-        #加上連接
+        #add link
             self.addLink(h1, s1, bw = 12, delay = '6ms', loss = 2%)
             self.addLink(s1, s8, bw = 20, delay = '7ms', loss = 15%)
             self.addLink(s8, s6, bw = 30, delay = '1ms', loss = 12%)
