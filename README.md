@@ -31,11 +31,12 @@ CLI:	Simple command-line interface to talk to nodes
 Link: A basic link is just a veth pair  
 Mininet: Network emulation with hosts spawned in network namespaces  
 Switch: A Switch is a Node that is running (or has execed?) an OpenFlow switch
-Topo: Data center network representation for structured multi-trees
+Topo: Data center network representation for structured multi-trees  
+
 
 ### iPerf Commands
 在mininet後面輸入h4 iperf -s -u -i 1 > ./out/result &  
-輸入這行的意思是把h4當server然後使用UDP傳遞，然後時間間隔是1秒，後面則是在說將結果傳至我的資料夾out
+輸入這行的意思是把h4當server然後使用UDP傳遞，然後時間間隔是1秒，後面則是在說將結果傳至我的資料夾out裡面
 再輸入h2 iperf -c 10.0.0.4 -u –i 1  
 這行則是說h2是用戶端，也是用UDP傳遞，時間間隔是1秒
 ![3.png](https://github.com/nctucn/lab2-0616039/blob/master/3.png)
