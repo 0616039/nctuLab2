@@ -18,7 +18,7 @@ In this lab, we are going to write a Python program which can generate a network
 
 > TODO: 
 > * Describe how to execute your program
-> * Show the screenshot of using iPerf command in Mininet
+> 圖片
 
 ---
 ## Description
@@ -78,7 +78,6 @@ In this lab, we are going to write a Python program which can generate a network
 ## Contributors
 
 > TODO:
-> * Please replace "YOUR_NAME" and "YOUR_GITHUB_LINK" into yours
 
 * [0616039](https://github.com/0616039)
 * [David Lu](https://github.com/yungshenglu)
