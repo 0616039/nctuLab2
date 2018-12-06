@@ -18,8 +18,8 @@ In this lab, we are going to write a Python program which can generate a network
 
 > TODO: 
 > * Describe how to execute your program
-> ![螢幕擷取畫面 (129).png](https://github.com/nctucn/lab2-0616039/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(129).png)  
-![螢幕擷取畫面 (130).png](https://github.com/nctucn/lab2-0616039/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(130).png)
+> ![1.png](https://github.com/nctucn/lab2-0616039/blob/master/1.png)  
+![2.png](https://github.com/nctucn/lab2-0616039/blob/master/2.png)
 
 ---
 ## Description
@@ -30,8 +30,9 @@ In this lab, we are going to write a Python program which can generate a network
 > * Describe the meaning of Mininet API in Python you used in detail
 
 ### iPerf Commands
-h4 iperf -s -u -i 1 > ./out/result &
-h2 iperf -c 10.0.0.4 -u –i 1
+再mininet後面輸入h4 iperf -s -u -i 1 > ./out/result &  
+再輸入h2 iperf -c 10.0.0.4 -u –i 1  
+![3.png](https://github.com/nctucn/lab2-0616039/blob/master/3.png)
 
 ### Tasks
 
