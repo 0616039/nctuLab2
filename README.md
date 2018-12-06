@@ -15,19 +15,23 @@ In this lab, we are going to write a Python program which can generate a network
 
 ---
 ## Execution
-
-> TODO: 
-> * Describe how to execute your program
-> ![1.png](https://github.com/nctucn/lab2-0616039/blob/master/1.png)  
-![2.png](https://github.com/nctucn/lab2-0616039/blob/master/2.png)
-
+1.先輸入sudo chmod +x topology.py轉成可執行的模式，再打 sudo ./topology.py執行我的python檔案
+2.然後如果再打一次 sudo ./example.py會產生error，因為已經執行過一次，於是要打 sudo mn -c，把東西先清乾淨
+3.輸入h4 iperf -s -u -i 1 > ./out/result &跟h2 iperf -c 10.0.0.4 -u –i 1 ，也就是把h4當為server，然後h2當client
+![1.png](https://github.com/nctucn/lab2-0616039/blob/master/1.png)  
+![2.png](https://github.com/nctucn/lab2-0616039/blob/master/2.png)  
+![3.png](https://github.com/nctucn/lab2-0616039/blob/master/3.png)  
 ---
 ## Description
 
 ### Mininet API in Python
 
-> TODO:
-> * Describe the meaning of Mininet API in Python you used in detail
+
+CLI:	Simple command-line interface to talk to nodes  
+Link: A basic link is just a veth pair  
+Mininet: Network emulation with hosts spawned in network namespaces  
+Switch: A Switch is a Node that is running (or has execed?) an OpenFlow switch
+Topo: Data center network representation for structured multi-trees
 
 ### iPerf Commands
 在mininet後面輸入h4 iperf -s -u -i 1 > ./out/result &  
