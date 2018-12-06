@@ -30,8 +30,10 @@ In this lab, we are going to write a Python program which can generate a network
 > * Describe the meaning of Mininet API in Python you used in detail
 
 ### iPerf Commands
-再mininet後面輸入h4 iperf -s -u -i 1 > ./out/result &  
+在mininet後面輸入h4 iperf -s -u -i 1 > ./out/result &  
+輸入這行的意思是把h4當server然後使用UDP傳遞，然後時間間隔是1秒，後面則是在說將結果傳至我的資料夾out
 再輸入h2 iperf -c 10.0.0.4 -u –i 1  
+這行則是說h2是用戶端，也是用UDP傳遞，時間間隔是1秒
 ![3.png](https://github.com/nctucn/lab2-0616039/blob/master/3.png)
 
 ### Tasks
@@ -57,8 +59,7 @@ In this lab, we are going to write a Python program which can generate a network
 ---
 ## References
 
-> TODO: 
-> * Please add your references in the following
+>[R Markdown](https://bookdown.org/tpemartin/rmarkdown_intro/markdown-syntax.html?fbclid=IwAR3fZ0iNt-WF-fF2xBfSPaI66cFbZ7nAPHmMtoIB-PJfDTI3APhjB1Bzs4Y)
 
 * **Mininet**
     * [Mininet Walkthrough](http://mininet.org/walkthrough/)
