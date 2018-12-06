@@ -16,9 +16,9 @@ In this lab, we are going to write a Python program which can generate a network
 ---
 ## Execution  
 
-1.先輸入sudo chmod +x topology.py轉成可執行的模式，再打 sudo ./topology.py執行我的python檔案    
-2.然後如果再打一次 sudo ./example.py會產生error，因為已經執行過一次，於是要打 sudo mn -c，把東西先清乾淨    
-3.輸入h4 iperf -s -u -i 1 > ./out/result &跟h2 iperf -c 10.0.0.4 -u –i 1 ，也就是把h4當為server，然後h2當client    
+1. 先輸入sudo chmod +x topology.py轉成可執行的模式，再打 sudo ./topology.py執行我的python檔案    
+2. 然後如果再打一次 sudo ./example.py會產生error，因為已經執行過一次，於是要打 sudo mn -c，把東西先清乾淨    
+3. 輸入h4 iperf -s -u -i 1 > ./out/result &跟h2 iperf -c 10.0.0.4 -u –i 1 ，也就是把h4當為server，然後h2當client    
 ![1.png](https://github.com/nctucn/lab2-0616039/blob/master/1.png)  
 ![2.png](https://github.com/nctucn/lab2-0616039/blob/master/2.png)  
 ![3.png](https://github.com/nctucn/lab2-0616039/blob/master/3.png)  
