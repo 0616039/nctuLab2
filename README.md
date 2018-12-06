@@ -31,7 +31,10 @@ CLI:	Simple command-line interface to talk to nodes
 Link: A basic link is just a veth pair  
 Mininet: Network emulation with hosts spawned in network namespaces  
 Switch: A Switch is a Node that is running (or has execed?) an OpenFlow switch
-Topo: Data center network representation for structured multi-trees  
+Topo: Data center network representation for structured multi-trees    
+OVSController: Open vSwitch switch  
+dumpNodeConnections: Dump every hosts’ connections  
+setLogLevel: Sets a single verbosity level for log messages
 
 
 ### iPerf Commands
