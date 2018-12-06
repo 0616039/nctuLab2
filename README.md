@@ -58,8 +58,8 @@ In this lab, we are going to write a Python program which can generate a network
    2.它執行之後，loss約等於52%
 ---
 ## References
-
->[R Markdown](https://bookdown.org/tpemartin/rmarkdown_intro/markdown-syntax.html?fbclid=IwAR3fZ0iNt-WF-fF2xBfSPaI66cFbZ7nAPHmMtoIB-PJfDTI3APhjB1Bzs4Y)
+* **Reference**
+    * [R Markdown](https://bookdown.org/tpemartin/rmarkdown_intro/markdown-syntax.html?fbclid=IwAR3fZ0iNt-WF-fF2xBfSPaI66cFbZ7nAPHmMtoIB-PJfDTI3APhjB1Bzs4Y)
 
 * **Mininet**
     * [Mininet Walkthrough](http://mininet.org/walkthrough/)
