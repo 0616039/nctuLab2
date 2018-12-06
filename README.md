@@ -14,7 +14,8 @@ In this lab, we are going to write a Python program which can generate a network
 2. Learn how to measure the bandwidth in your network topology with iPerf
 
 ---
-## Execution
+## Execution  
+
 1.先輸入sudo chmod +x topology.py轉成可執行的模式，再打 sudo ./topology.py執行我的python檔案    
 2.然後如果再打一次 sudo ./example.py會產生error，因為已經執行過一次，於是要打 sudo mn -c，把東西先清乾淨    
 3.輸入h4 iperf -s -u -i 1 > ./out/result &跟h2 iperf -c 10.0.0.4 -u –i 1 ，也就是把h4當為server，然後h2當client    
@@ -25,7 +26,6 @@ In this lab, we are going to write a Python program which can generate a network
 ## Description
 
 ### Mininet API in Python
-
 
 CLI:	Simple command-line interface to talk to nodes  
 Link: A basic link is just a veth pair  
@@ -87,7 +87,6 @@ Topo: Data center network representation for structured multi-trees
 ---
 ## Contributors
 
-> 
 
 * [0616039](https://github.com/0616039)
 * [David Lu](https://github.com/yungshenglu)
