@@ -19,7 +19,7 @@ In this lab, we are going to write a Python program which can generate a network
 > TODO: 
 > * Describe how to execute your program
 > ![螢幕擷取畫面 (129).png](https://github.com/nctucn/lab2-0616039/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(129).png)  
-
+![螢幕擷取畫面 (130).png]https://github.com/nctucn/lab2-0616039/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(130).png
 
 ---
 ## Description
@@ -51,8 +51,8 @@ h2 iperf -c 10.0.0.4 -u –i 1
    3.在最上面加上from mininet.cli import CLI，然後在後面加上CLI(net)，再把stop的部分刪掉  
    4.輸入h1 ping h2便可以看到h1跟h2的連接  
 4. **Measurement**  
-   1.輸入h4 iperf -s -u -i 1 > ./out/result &跟h2 iperf -c 10.0.0.4 -u –i 1  
-   2.
+   1.輸入h4 iperf -s -u -i 1 > ./out/result &跟h2 iperf -c 10.0.0.4 -u –i 1 ，也就是把h4當為server，然後h2接收
+   2.它執行之後，loss約等於52%
 ---
 ## References
 
