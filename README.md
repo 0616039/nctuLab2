@@ -44,7 +44,7 @@ h2 iperf -c 10.0.0.4 -u –i 1
    2.然後如果再打一次 sudo ./example.py會產生error，因為已經執行過一次，於是要打 sudo mn -c，把東西先清乾淨
 3. **Topology Generator**
    1.先把自己的學號除以三，得到1，所以是用topo1.png
-    !(topo1.png)
+    ![topo1.png](https://github.com/nctucn/lab2-0616039/blob/master/src/topo/topo1.png)
    2.修改一些example.py裡面的內容，打出可以建立topo1.png的程式碼
    3.再程式碼中加上dumpNodeConnections(net.hosts)和dumpNodeConnections(net.switches)可以顯示host跟switch之間的連結
    3.在最上面加上from mininet.cli import CLI，然後在後面加上CLI(net)，再把stop的部分刪掉
